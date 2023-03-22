@@ -1,0 +1,46 @@
+** start of undefined **
+
+<h1 id="title">Build a Survey Form About Dogs and Cats</h1>
+<p id="description">using HTML</p>
+
+<form id="survey-form">
+
+  <input placeholder="write your name here" id="name" type="text" required><br>
+  <input placeholder="write your email here"id="email" type="email" required><br>
+  <input placeholder="your age" id="number" type="number" min="13" max="120"><br>
+  <label id="name-label">what do you</label>
+  <label id="email-label">like </label>
+   <label id="number-label">the most?</label>
+ <select id="dropdown">
+   <option>cats</option>
+   <option>dogs</option>
+</select><br>
+
+<p>What's your cat/dog age range?</p>
+
+<input type="radio" value="first option" name="first">{0-2}
+<input type="radio" value="first option" name="first">{2-6}
+<input type="radio" value="second-option" name="second">{6-8}
+<input type="radio" value="second-option" name="second">+8<br>
+
+<p>Do you love your pet?</p>
+<input type="checkbox" value="love-yes">yes
+<input type="checkbox" value="love-absolutely">absolutely<br>
+<p>Write below what's your favorite things about your cat/dog.</p>
+<textarea></textarea><br><br>
+<input type="submit" id="submit"/>
+
+ 
+ </form>
+ 
+
+ 
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+
